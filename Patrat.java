@@ -24,8 +24,14 @@ public class Patrat {
 
     // Metodă pentru calcularea ariei
     public String calculeazaAria() {
-        int l = Integer.parseInt(latura); // Convertim latura la int
+        return toString;
+    }
+
+    public String toString() {
+        int l = Integer.parseInt(latura); 
         int aria = l * l;
         return "Patrat: l = " + latura + ", Aria = " + aria;
-    }
+    
+}
+
 }
